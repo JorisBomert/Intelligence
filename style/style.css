@@ -1,0 +1,364 @@
+body {
+    background-color: #ebf0f6;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    color: black;
+}
+
+.content {
+    border: 1px solid black;
+    background-color: #d3e1f3;
+    padding: 2em;
+    margin: 0 auto;
+    height: 800px;
+    width: 1200px;
+    border-radius: 10px;
+}
+
+.introduction {
+    border: 1px solid black;
+    background-color: #10b615;
+    width: 25em;
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.introduction button {
+    margin-bottom: 0;
+    background-color: #058db6;
+    color: white;
+    height: 4em;
+    width: 100%;
+    border: none;
+}
+
+.introduction p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.introduction button:hover {
+    background-color: #9bd0f8;
+    color: #003849;
+}
+
+.continue {
+    border: 1px solid black;
+    background-color: #10b615;
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    left: 20%;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.continue button {
+    margin-bottom: 0;
+    background-color: #058db6;
+    color: white;
+    height: 4em;
+    width: 100%;
+    border: none;
+}
+
+.continue button:hover {
+    background-color: #9bd0f8;
+    color: #003849;
+}
+
+#choices {
+    background-color: #058db6;
+}
+
+#choices li {
+    list-style-type: none;
+    border: 1px solid #d3e1f3;
+    font-size: 1.2em;
+    width: 100%;
+    margin: 0 auto;
+    height: 2em;
+    line-height: 200%;
+    color: #fff;
+}
+
+#choices li:hover {
+    background-color: #9bd0f8;
+    color: #003849;
+}
+
+
+table {
+    margin: auto;
+    width: 700px;
+    float: right;
+}
+
+table td {
+    position: relative;
+    outline: 1px solid black;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    background-color: #003489;
+    background-repeat: no-repeat;
+    top: 20px;
+}
+
+table td:hover {
+    cursor: pointer;
+    background-color: #0988c7;
+}
+
+.flag {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.france {
+    position: absolute;
+    background-color: #fff;
+}
+
+.france .left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 33.3%;
+    height: 200px;
+    background-color: #002395;
+}
+
+.france .right {
+    position: absolute;
+    top: 0;
+    left: 67%;
+    width: 33.3%;
+    height: 200px;
+    background-color: #ed2939;
+}
+
+.swedish {
+    position: absolute;
+    background-color: #006aa7;
+}
+
+.swedish .horizontal {
+    position: absolute;
+    top: 85px;
+    background-color: #fecc00;
+    width: 100%;
+    height: 35px;
+}
+
+.swedish .vertical {
+    position: absolute;
+    left: 100px;
+    background-color: #fecc00;
+    width: 35px;
+    height: 200px;
+}
+
+.turkey {
+    position: absolute;
+    background-color: #e30a17;
+}
+
+.turkey .circle1 {
+    position: absolute;
+    top: 50px;
+    left: 70px;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+}
+
+.turkey .circle2 {
+    position: absolute;
+    top: 60px;
+    left: 92px;
+    width: 80px;
+    height: 80px;
+    background-color: #e30a17;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+}
+
+
+.turkey .star {
+    position: absolute;
+    top: 60px;
+    left: 160px;
+    font-size: 50px;
+    color: #fff;
+    -ms-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+}
+
+.greenland {
+    position: absolute;
+    background-color: #fff;
+}
+
+.greenland .top {
+    height: 100px;
+    width: 100%;
+}
+
+.greenland .bottom {
+    height: 100px;
+    width: 100%;
+    background-color: #d00c33;
+}
+
+.greenland .circle {
+    position: absolute;
+    top: 50px;
+    left: 75px;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to bottom, #d00c33 50%, #fff 50%);
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+}
+
+
+.japan {
+    position: absolute;
+    background-color: #fff;
+}
+
+.innerCircle {
+    position: absolute;
+    top: 50px;
+    left: 37%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #bc002d;
+}
+
+.holland {
+    background-color: #fff;
+    position: absolute;
+}
+
+.upperHolland {
+    position: absolute;
+    top: 0;
+    height: 33.33%;
+    width: 100%;
+    background-color: #ae1c28;
+}
+
+.lowerHolland {
+    position: absolute;
+    top: 133.34px;
+    height: 33%;
+    width: 100%;
+    background-color: #21468b;
+}
+
+.finland {
+    position: absolute;
+    background-color: #fff;
+}
+
+.finland .horizontal {
+    position: absolute;
+    background-color: #003580;
+    top: 85px;
+    width: 100%;
+    height: 35px;
+}
+
+.finland .vertical {
+    position: absolute;
+    left: 100px;
+    background-color: #003580;
+    width: 35px;
+    height: 200px;
+}
+
+.italy {
+    position: absolute;
+    background-color: #fff;
+}
+
+.italy .left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 33.3%;
+    height: 200px;
+    background-color: #009246;
+}
+
+.italy .right {
+    position: absolute;
+    top: 0;
+    left: 67%;
+    width: 33.3%;
+    height: 200px;
+    background-color: #ce2b37;
+}
+
+.germany {
+    background-color: #d00;
+    position: absolute;
+}
+
+.upperGermany {
+    position: absolute;
+    top: 0;
+    height: 33.33%;
+    width: 100%;
+    background-color: #000;
+}
+
+.lowerGermany {
+    position: absolute;
+    top: 133.34px;
+    height: 33%;
+    width: 100%;
+    background-color: #ffce00;
+}
+
+#countrylist {
+    display: inline-block;
+    position: relative;
+    top: 8em;
+    left: 3em;
+}
+
+footer {
+    text-align: right;
+    color: black;
+    position: relative;
+    right: 18%;
+}
+
+footer a {
+    text-decoration: none;
+    color: #1d45e8;
+}
