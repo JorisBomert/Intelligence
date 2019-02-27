@@ -14,16 +14,6 @@
     window.testPoints3 = 0;
     window.answerCorrect = 0;
 
-    function random(range) {
-        return Math.floor(Math.random() * range);
-    }
-
-    //random value true or false, 0 or 1
-
-    function randomize() {
-        return random(2);
-    }
-
     window.showIntro3 = function() {
         content.innerHTML = '<div class="introduction"><h3>Memory test</h3>\n' +
         '<p>In this test your memory will be put to the test. 9 flags will\n' +
@@ -134,8 +124,7 @@
             var whichNumber = "";
 
             countryList.innerHTML = "";
-            allFlags.sort(randomize);
-            allFlags.sort(randomize);
+            allFlags.sort(() => 0.5 - Math.random());
 
             for (var i = 0; i < allFlags.length; i++) {
                 countryId = allFlags[i];
@@ -324,8 +313,7 @@
         }
 
         window.shuffle = function() {
-            window.flagArray.sort(randomize);
-            window.flagArray.sort(randomize);
+            window.flagArray.sort(() => 0.5 - Math.random());
             window.flagArray.forEach(function(item, i) {
                 grid[i].innerHTML += item;
             });
